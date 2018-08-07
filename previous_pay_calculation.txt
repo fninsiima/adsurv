@@ -1,0 +1,9 @@
+BASE CASE:      1st 20 reports = 5000
+		Next 40 reports = 6000 [40 x 150] where 150 is the (base rate)
+		Next 40 reports = 7000
+
+RECURSIVE CASE: prev_pay = factor_1 + factor_2
+			 = e.g in the case of the 3rd range, prev_pay 
+			 = 5000 + 6000
+			 = 11000
+		
